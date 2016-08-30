@@ -45,8 +45,8 @@ public class Constants {
     public static final String TAG = "MDKSensor";
 
     public static String URL_PRIVACY_POLICY = "https://motorola.com/device-privacy";
-    public static String URL_DEV_PORTAL = "http://developer.motorola.com";
-    public static String URL_MOD_STORE = "http://developer.motorola.com/buy/";
+    public static String URL_DEV_PORTAL = "http://developer.motorola.com/build/examples/sensor";
+    public static String URL_SOURCE_CODE = "https://github.com/MotorolaMobilityLLC/mdksensor";
 
     public static final int INVALID_ID = -1;
     public static final int MAX_SAMPLING_SUM = 15;

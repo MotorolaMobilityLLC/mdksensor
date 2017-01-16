@@ -389,8 +389,9 @@ public class MainActivity extends Activity implements View.OnClickListener {
             if (null != device) {
                 tvName.setText(device.getProductString());
 
-                if (device.getVendorId() == Constants.VID_MDK
-                        && device.getProductId() == Constants.PID_TEMPERATURE) {
+                if ((device.getVendorId() == Constants.VID_MDK
+                        && device.getProductId() == Constants.PID_TEMPERATURE)
+                        || device.getVendorId() == Constants.VID_DEVELOPER) {
                     tvName.setTextColor(getColor(R.color.mod_match));
                 } else {
                     tvName.setTextColor(getColor(R.color.mod_mismatch));

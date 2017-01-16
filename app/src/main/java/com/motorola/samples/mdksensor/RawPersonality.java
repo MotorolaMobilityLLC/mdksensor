@@ -278,7 +278,9 @@ public class RawPersonality extends Personality implements Personality.Raw {
          */
         if (targetPID != Constants.INVALID_ID && targetVID != Constants.INVALID_ID) {
             if (modDevice.getVendorId() != targetVID || modDevice.getProductId() != targetPID) {
-                return false;
+                if (modDevice.getVendorId() != Constants.VID_DEVELOPER) {
+                    return false;
+                }
             }
         }
 

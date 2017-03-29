@@ -83,20 +83,13 @@
                 android:layout_marginTop="@dimen/layout_vertical_margin"
                 android:background="?android:dividerHorizontal" />
 
-            <TextView
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:visibility="visible"
-                android:textStyle="italic"
-                android:text="@string/dip_description"/>
-
             <ImageView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="@dimen/widgets_vertical_margin"
                 android:adjustViewBounds="true"
                 android:scaleType="centerCrop"
-                android:src="@drawable/dip_all_off"/>
+                android:src="@drawable/dip_sensor"/>
 
         </LinearLayout>
 

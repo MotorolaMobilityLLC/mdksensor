@@ -135,6 +135,4 @@
     <string name="mdk_switch">Please detach the Reference Moto Mod and insert the Sensor Personality Card.</string>
     <!-- description: [The Dip switch config title prompt] -->
     <string name="dip_description_title">Dip switch configuration</string>
-    <!-- description: [The Dip switch config description prompt] -->
-    <string name="dip_description">All Dip configurations are \"Don\'t Care\" for this example.</string>
 </resources>

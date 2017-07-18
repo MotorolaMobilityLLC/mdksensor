@@ -162,9 +162,9 @@ public class MainActivity extends Activity implements View.OnClickListener {
                         return;
                     }
 
-                    if (personality.getModDevice() == null
-                            || personality.getModDevice().getVendorId() != Constants.VID_MDK
-                            || personality.getModDevice().getProductId() != Constants.PID_TEMPERATURE) {
+                    if (personality.getModDevice().getVendorId() != Constants.VID_DEVELOPER
+                            && !(personality.getModDevice().getVendorId() == Constants.VID_MDK
+                            && personality.getModDevice().getProductId() == Constants.PID_TEMPERATURE)) {
                         Toast.makeText(MainActivity.this, getString(R.string.sensor_not_available),
                                 Toast.LENGTH_SHORT).show();
                         buttonView.setChecked(false);
